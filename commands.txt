@@ -6,5 +6,6 @@ git log
 git diff filename
 git checkout filename.extension
 
-git add remote origin "url from github"
+git remote add origin "url from github"
+$ git branch -M main
 git push -u origin main
