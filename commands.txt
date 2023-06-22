@@ -1,0 +1,10 @@
+git init
+git status
+git add filename.extension
+git commit
+git log
+git diff filename
+git checkout filename.extension
+
+git add remote origin "url from github"
+git push -u origin main
