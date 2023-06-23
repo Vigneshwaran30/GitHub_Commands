@@ -1,11 +1,27 @@
-git init
-git status
-git add filename.extension
-git commit
-git log
-git diff filename
-git checkout filename.extension
+git init - initialize git repo 
 
-git remote add origin "url from github"
-git branch -M main
-git push -u origin main
+git status - it will show the status of the working directory 
+
+git add filename.extension - adds files to staging area 
+
+git commit -m "mesage u want to add" - commit all changed files
+
+git log - it displays all the commits u have done before along with author name,date and time and message\
+
+git diff filename - displays the difference between previous commit and current
+
+git checkout filename.extension - it will go back to previously commited filename
+
+git remote add origin "url from github" - connects local repo to remote repo
+git branch -M main 
+
+git push -u origin main  - pushes all the work from staging area to remote repo
+
+touch .gitignore - creates a gitignore repo inside this we can add filename and directories to be ignored
+
+.gitignore - includes all files and directories that need not be tracked,should be present in 
+             root of the project directory
+
+git add .gitignore 
+
+git commit -m "Added .gitignore to the project root directory"
