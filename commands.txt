@@ -25,3 +25,11 @@ touch .gitignore - creates a gitignore repo inside this we can add filename and 
 git add .gitignore 
 
 git commit -m "Added .gitignore to the project root directory"
+
+git branch branch_name - creates new branch\
+
+git brnach - displays all the branches
+
+git checkout branchname - changes from current branch to new branch 
+
+git merge branch_name - used to merge branch with master(main)branch
